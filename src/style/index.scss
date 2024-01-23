@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'Velyra';
+  src: local('Velyra'), url(./fonts/Velyra.otf) format('opentype');
+}
+
 *, body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Velyra, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +15,20 @@
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.link-underline {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+.icon-hover {
+  color: white;
+
+  &:hover {
+    color: rgb(42, 113, 219);
+  }
 }

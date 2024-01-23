@@ -1,7 +1,9 @@
+import Navigation from "../features/navigation";
+
 function App() {
     return (
-      <p>Hello from home</p>
+      <Navigation/>
     );
   }
   
-  export default App;
+export default App;
