@@ -12,7 +12,7 @@ function About() {
             </Stack>
             <Stack className="px-0 px-sm-5 col-lg-6 col-12 mt-5 mt-lg-0 align-self-center">
                 <h1>Learner, developer, and enthusiast immersed in the realms of both timeless and cutting-edge technologies.</h1>
-                <Stack direction="horizontal" gap={2}>
+                <Stack gap={2} className="flex-sm-row">
                     <Button variant="dark">
                         <Link to="projects" spy={true} smooth={true} duration={500}>My Work</Link>
                     </Button>
