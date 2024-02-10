@@ -1,4 +1,5 @@
 import { Button, Stack } from "react-bootstrap";
+import { Link } from "react-scroll";
 
 function About() {
     return (
@@ -12,9 +13,15 @@ function About() {
             <Stack className="px-0 px-sm-5 col-lg-6 col-12 mt-5 mt-lg-0 align-self-center">
                 <h1>Learner, developer, and enthusiast immersed in the realms of both timeless and cutting-edge technologies.</h1>
                 <Stack direction="horizontal" gap={2}>
-                    <Button variant="dark">My Work</Button>
-                    <Button variant="dark">My Blog</Button>
-                    <Button variant="secondary">Contact Me</Button>
+                    <Button variant="dark">
+                        <Link to="projects" spy={true} smooth={true} duration={500}>My Work</Link>
+                    </Button>
+                    <Button variant="dark">
+                        <Link to="blog" spy={true} smooth={true} duration={500}>My Blog</Link>
+                    </Button>
+                    <Button variant="secondary">
+                        <Link to="contact" spy={true} smooth={true} duration={500}>Contact Me</Link>
+                    </Button>
                 </Stack>
             </Stack>
         </Stack>
