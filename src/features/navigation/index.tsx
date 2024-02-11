@@ -10,7 +10,7 @@ export default function Navigation() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="fs-5">
                         <Nav.Link className="link-underline text-light">
-                            <Link to="wip" spy={true} smooth={true} duration={500}>About</Link>
+                            <Link to="about" spy={true} smooth={true} duration={500}>About</Link>
                         </Nav.Link>
                         <Nav.Link className="link-underline text-light mx-0 mx-lg-4">
                             <Link to="wip" spy={true} smooth={true} duration={500}>Projects</Link>
