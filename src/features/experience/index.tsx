@@ -1,7 +1,7 @@
 import { Stack } from "react-bootstrap";
 import Slot from "./slot";
 
-function Experience() {
+export default function Experience() {
     return (
         <Stack className="py-5 bg-dark text-light px-5 flex-xl-row justify-content-around">
             <Stack className="px-0 px-md-5 col-xl-6 col-12">
@@ -17,5 +17,3 @@ function Experience() {
         </Stack>
     );
 }
-  
-export default Experience;

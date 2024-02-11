@@ -1,13 +1,13 @@
 import Navigation from "../features/navigation";
 import About from "../features/about";
+import Experience from "../features/experience";
 
-function App() {
-    return (
-      <>
-        <Navigation/>
-        <About/>
-      </>
-    );
-  }
-  
-export default App;
+export default function App() {
+  return (
+    <>
+      <Navigation/>
+      <About/>
+      <Experience/>
+    </>
+  );
+}

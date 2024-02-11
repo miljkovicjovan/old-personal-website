@@ -1,7 +1,7 @@
 import { Button, Stack } from "react-bootstrap";
 import { Link } from "react-scroll";
 
-function About() {
+export default function About() {
     return (
         <Stack id="about" className="bg-dark text-light py-5 px-5 flex-lg-row justify-content-around">
             <Stack className="px-0 px-md-5 col-lg-3 col-12">
@@ -27,5 +27,3 @@ function About() {
         </Stack>
     );
 }
-  
-export default About;

@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-scroll";
 
-function Navigation() {
+export default function Navigation() {
     return (
         <Navbar id="top" expand="lg" className="navbar-dark bg-dark p-0">
             <Container className="p-0 ps-5 py-4">
@@ -27,5 +27,3 @@ function Navigation() {
         </Navbar>
     );
 }
-  
-export default Navigation;
