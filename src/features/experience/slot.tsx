@@ -19,7 +19,7 @@ export default function Slot({title, place, start, end, img}: info) {
                     <h5 className="fw-bold m-0">{place}</h5>
                 </Stack>
                 <Stack className="align-self-md-center text-md-end">
-                    <p className="m-0">{start} - {end}</p>
+                    <p className="m-0 text-nowrap">{start} - {end}</p>
                 </Stack>
             </Stack>
         </Stack>
