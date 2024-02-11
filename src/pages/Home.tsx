@@ -1,6 +1,7 @@
 import Navigation from "../features/navigation";
 import About from "../features/about";
 import Experience from "../features/experience";
+import WorkInProgress from "../features/wip";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Navigation/>
       <About/>
       <Experience/>
+      <WorkInProgress/>
     </>
   );
 }
