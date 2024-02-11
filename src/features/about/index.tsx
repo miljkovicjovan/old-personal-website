@@ -14,10 +14,10 @@ export default function About() {
                 <h1>Learner, developer, and enthusiast immersed in the realms of both timeless and cutting-edge technologies.</h1>
                 <Stack gap={2} className="flex-sm-row">
                     <Button className="border-light" variant="dark">
-                        <Link to="projects" spy={true} smooth={true} duration={500}>My Work</Link>
+                        <Link to="wip" spy={true} smooth={true} duration={500}>My Work</Link>
                     </Button>
                     <Button className="border-light" variant="dark">
-                        <Link to="blog" spy={true} smooth={true} duration={500}>My Blog</Link>
+                        <Link to="wip" spy={true} smooth={true} duration={500}>My Blog</Link>
                     </Button>
                     <Button variant="secondary">
                         <Link to="contact" spy={true} smooth={true} duration={500}>Contact Me</Link>
