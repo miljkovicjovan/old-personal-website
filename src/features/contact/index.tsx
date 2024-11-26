@@ -10,7 +10,6 @@ export default function Contact() {
                 <a href="https://www.linkedin.com/in/miljkovicj/" target="_blank" rel="noreferrer"><FontAwesomeIcon color="#0072b1" size="2x" icon={faLinkedin} /></a>
                 <a href="https://github.com/miljkovicjovan" target="_blank" rel="noreferrer"><FontAwesomeIcon color="#967bb6" size="2x" icon={faGithub} /></a>
                 <a href="https://twitter.com/miljkoviccjovan" target="_blank" rel="noreferrer"><FontAwesomeIcon color="#1DA1F2" size="2x" icon={faXTwitter} /></a>
-                <a href="https://www.instagram.com/miljkovicjovan/" target="_blank" rel="noreferrer"><FontAwesomeIcon color="#833AB4" size="2x" icon={faInstagram} /></a>
             </Stack>
         </Stack>
     );
