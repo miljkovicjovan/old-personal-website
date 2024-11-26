@@ -3,7 +3,7 @@ import About from "../features/about";
 import Experience from "../features/experience";
 import WorkInProgress from "../features/wip";
 import Contact from "../features/contact";
-import { Accordion, Button } from "react-bootstrap";
+import { Accordion } from "react-bootstrap";
 
 export default function App() {
   const message = (
@@ -21,7 +21,7 @@ export default function App() {
         <Accordion.Header>I’m working on a brand-new website that will feature my latest blog posts, projects, and more.</Accordion.Header>
         <Accordion.Body>
           <p>{message}</p>
-          <a href="https://miljkovicjovan.substack.com" target="_blank" className="btn btn-dark" role="button">Get Notified</a>
+          <a href="https://miljkovicjovan.substack.com" target="_blank" rel="noreferrer" className="btn btn-dark" role="button">Get Notified</a>
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
